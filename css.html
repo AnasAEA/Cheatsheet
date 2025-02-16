@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML and CSS Stylesheet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <!-- Nav bar for different pages: HTML and CSS stylesheets -->
+    <nav class="navbar">
+      <ul>
+        <li><a href=".">HTML</a></li>
+        <li><a href="css.html">CSS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- CSS cheatsheet -->
+    <section class="banner">
+      <h1>Welcome to The CSS Stylesheet</h1>
+      <p>CSS is the language used to style HTML documents and create visually engaging web pages.</p>
+    </section>
+
+    <section class="tables">
+      <div class="doc-structure">
+        <h2>Basic Syntax</h2>
+        <h3>Selectors &amp; Properties</h3>
+        <table class="table1">
+          <thead>
+            <tr>
+              <th>Selector</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="code">element</span></td>
+              <td>Selects all instances of a given element</td>
+            </tr>
+            <tr>
+              <td><span class="code">.class</span></td>
+              <td>Selects all elements with the specified class</td>
+            </tr>
+            <tr>
+              <td><span class="code">#id</span></td>
+              <td>Selects the element with the specified id</td>
+            </tr>
+            <tr>
+              <td><span class="code">*</span></td>
+              <td>Selects all elements</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Properties</h3>
+        <table class="table-2">
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="code">color</span></td>
+              <td>Sets the text color</td>
+            </tr>
+            <tr>
+              <td><span class="code">background-color</span></td>
+              <td>Sets the background color</td>
+            </tr>
+            <tr>
+              <td><span class="code">font-size</span></td>
+              <td>Sets the size of the text</td>
+            </tr>
+            <tr>
+              <td><span class="code">margin</span></td>
+              <td>Sets the margin around an element</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="structural-elements">
+        <h2>Layout Techniques</h2>
+        <h3>Selectors &amp; Properties</h3>
+        <table class="table1">
+          <thead>
+            <tr>
+              <th>Property/Technique</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="code">display</span></td>
+              <td>Defines how an element is displayed (block, inline, etc.)</td>
+            </tr>
+            <tr>
+              <td><span class="code">position</span></td>
+              <td>Specifies the positioning scheme (static, relative, absolute, fixed)</td>
+            </tr>
+            <tr>
+              <td><span class="code">float</span></td>
+              <td>Allows an element to float to the left or right</td>
+            </tr>
+            <tr>
+              <td><span class="code">flex</span></td>
+              <td>Enables flexible container layouts (Flexbox)</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Attributes &amp; Values</h3>
+        <table class="table-2">
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Value</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="code">display</span></td>
+              <td><span class="code">block</span></td>
+              <td>Displays an element as a block-level element</td>
+            </tr>
+            <tr>
+              <td><span class="code">display</span></td>
+              <td><span class="code">inline</span></td>
+              <td>Displays an element as an inline element</td>
+            </tr>
+            <tr>
+              <td><span class="code">position</span></td>
+              <td><span class="code">absolute</span></td>
+              <td>Positions an element relative to its nearest positioned ancestor</td>
+            </tr>
+            <tr>
+              <td><span class="code">position</span></td>
+              <td><span class="code">relative</span></td>
+              <td>Positions an element relative to its normal position</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="text-elements">
+        <h2>Typography</h2>
+        <h3>Selectors &amp; Properties</h3>
+        <table class="table1">
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="code">font-family</span></td>
+              <td>Specifies the typeface for text</td>
+            </tr>
+            <tr>
+              <td><span class="code">font-size</span></td>
+              <td>Defines the size of the text</td>
+            </tr>
+            <tr>
+              <td><span class="code">font-weight</span></td>
+              <td>Sets the thickness of the text (e.g., normal, bold)</td>
+            </tr>
+            <tr>
+              <td><span class="code">line-height</span></td>
+              <td>Sets the height of a line of text</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Attributes &amp; Values</h3>
+        <table class="table-2">
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Value</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="code">text-align</span></td>
+              <td><span class="code">center</span></td>
+              <td>Centers the text horizontally</td>
+            </tr>
+            <tr>
+              <td><span class="code">text-align</span></td>
+              <td><span class="code">left</span></td>
+              <td>Aligns text to the left</td>
+            </tr>
+            <tr>
+              <td><span class="code">text-align</span></td>
+              <td><span class="code">right</span></td>
+              <td>Aligns text to the right</td>
+            </tr>
+            <tr>
+              <td><span class="code">color</span></td>
+              <td><span class="code">#333</span></td>
+              <td>Sets the text color</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="form-elements">
+        <h2>CSS Specificity &amp; Cascade</h2>
+        <h3>Selectors &amp; Rules</h3>
+        <table class="table1">
+          <thead>
+            <tr>
+              <th>Selector</th>
+              <th>Specificity</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="code">element</span></td>
+              <td>Low</td>
+              <td>Targets all instances of an element</td>
+            </tr>
+            <tr>
+              <td><span class="code">.class</span></td>
+              <td>Medium</td>
+              <td>Targets elements with the specified class</td>
+            </tr>
+            <tr>
+              <td><span class="code">#id</span></td>
+              <td>High</td>
+              <td>Targets the element with the specified id</td>
+            </tr>
+            <tr>
+              <td><span class="code">!important</span></td>
+              <td>Overrides normal specificity</td>
+              <td>Forces a style regardless of other specificity</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Attributes &amp; Rules</h3>
+        <table class="table-2">
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Example</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="code">margin</span></td>
+              <td><span class="code">margin: 10px;</span></td>
+              <td>Sets the margin around an element</td>
+            </tr>
+            <tr>
+              <td><span class="code">padding</span></td>
+              <td><span class="code">padding: 10px;</span></td>
+              <td>Sets the padding inside an element</td>
+            </tr>
+            <tr>
+              <td><span class="code">border</span></td>
+              <td><span class="code">border: 1px solid #000;</span></td>
+              <td>Sets the border of an element</td>
+            </tr>
+            <tr>
+              <td><span class="code">background-color</span></td>
+              <td><span class="code">background-color: #fff;</span></td>
+              <td>Sets the background color of an element</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="table-elements">
+        <h2>Advanced CSS</h2>
+        <h3>Selectors &amp; Techniques</h3>
+        <table class="table1">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="code">@media</span></td>
+              <td>Applies styles based on device characteristics</td>
+            </tr>
+            <tr>
+              <td><span class="code">@keyframes</span></td>
+              <td>Defines animations</td>
+            </tr>
+            <tr>
+              <td><span class="code">transform</span></td>
+              <td>Applies 2D or 3D transformations</td>
+            </tr>
+            <tr>
+              <td><span class="code">transition</span></td>
+              <td>Enables smooth property changes</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Attributes &amp; Techniques</h3>
+        <table class="table-2">
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Example</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="code">animation</span></td>
+              <td><span class="code">animation: slide 3s ease;</span></td>
+              <td>Defines an animation</td>
+            </tr>
+            <tr>
+              <td><span class="code">box-shadow</span></td>
+              <td><span class="code">box-shadow: 2px 2px 5px rgba(0,0,0,0.3);</span></td>
+              <td>Adds shadow effects around an element</td>
+            </tr>
+            <tr>
+              <td><span class="code">z-index</span></td>
+              <td><span class="code">z-index: 10;</span></td>
+              <td>Sets the stacking order of elements</td>
+            </tr>
+            <tr>
+              <td><span class="code">opacity</span></td>
+              <td><span class="code">opacity: 0.8;</span></td>
+              <td>Sets the transparency level of an element</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="display-types">
+        <h2>Display Types</h2>
+        <h3>Values and Descriptions</h3>
+        <table class="table1">
+          <thead>
+            <tr>
+              <th>Display Value</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="code">block</span></td>
+              <td>Element starts on a new line and occupies the full available width.</td>
+            </tr>
+            <tr>
+              <td><span class="code">inline</span></td>
+              <td>Element does not force a line break and only takes up as much width as needed.</td>
+            </tr>
+            <tr>
+              <td><span class="code">inline-block</span></td>
+              <td>Behaves like an inline element but accepts width and height properties.</td>
+            </tr>
+            <tr>
+              <td><span class="code">flex</span></td>
+              <td>Designates the element as a flex container, enabling flexible layouts.</td>
+            </tr>
+            <tr>
+              <td><span class="code">grid</span></td>
+              <td>Makes the element a grid container for two-dimensional layouts.</td>
+            </tr>
+            <tr>
+              <td><span class="code">none</span></td>
+              <td>Element is not displayed at all (removed from the layout).</td>
+            </tr>
+            <tr>
+              <td><span class="code">table</span></td>
+              <td>Renders the element as a block-level table.</td>
+            </tr>
+            <tr>
+              <td><span class="code">table-row</span></td>
+              <td>Displays the element as a table row, similar to the <code>&lt;tr&gt;</code> tag.</td>
+            </tr>
+            <tr>
+              <td><span class="code">table-cell</span></td>
+              <td>Displays the element as a table cell, similar to the <code>&lt;td&gt;</code> tag.</td>
+            </tr>
+            <tr>
+              <td><span class="code">list-item</span></td>
+              <td>Renders the element as a list item, complete with markers.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+  </main>
+  
+</body>
+</html>

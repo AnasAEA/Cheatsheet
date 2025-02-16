@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and css Stylesheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <!-- create a nav bar for different pages HTML and CSS stylesheets  -->
+        <nav class="navbar">
+            <ul>
+                <li><a href=".">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- html stylesheet -->
+        <section class="banner">
+            <h1>Welcome to The HTML stylesheet</h1>
+            <p>HTML is the standard markup language for creating Web pages.</p>
+        </section>
+
+        <section class="tables">
+            <div class="doc-structure">
+                <h2>Document Structure</h2>
+                <h3>tags</h3>
+                <table class="table1">
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="code">&lt;html&gt;</span></td>
+                            <td>html</td>
+                            <td>Root element of an HTML document</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;head&gt;</span></td>
+                            <td>head</td>
+                            <td>Contains meta-information about the document</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;title&gt;</span></td>
+                            <td>title</td>
+                            <td>Defines the title of the document</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;body&gt;</span></td>
+                            <td>body</td>
+                            <td>Contains the visible page content</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>attributes</h3>
+                <table class="table-2">
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Attribute</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="code">&lt;html lang=""&gt;</span></td>
+                            <td>lang</td>
+                            <td>Specifies the language of the document</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;meta charset=""&gt;</span></td>
+                            <td><span class="code">charset</span></td>
+                            <td>Specifies the character encoding for the HTML document</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;meta name="" content=""&gt;</span></td>
+                            <td><span class="code">name</span></td>
+                            <td>Specifies the name of the metadata</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;meta name="" content=""&gt;</span></td>
+                            <td><span class="code">content</span></td>
+                            <td>Specifies the value of the metadata</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;link rel="" href=""&gt;</span></td>
+                            <td>rel</td>
+                            <td>Specifies the relationship between the current document and the linked document</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;link rel="" href=""&gt;</span></td>
+                            <td>href</td>
+                            <td>Specifies the location of the linked document</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="structural-elements">
+                <h2>Structural Elements</h2>
+                <h3>tags</h3>
+                <table class="table1">
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="code">&lt;header&gt;</span></td>
+                            <td>header</td>
+                            <td>Defines a header for a document or a section</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;nav&gt;</span></td>
+                            <td>nav</td>
+                            <td>Defines a set of navigation links</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;main&gt;</span></td>
+                            <td>main</td>
+                            <td>Defines the main content of a document</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;footer&gt;</span></td>
+                            <td>footer</td>
+                            <td>Defines a footer for a document or a section</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;section&gt;</span></td>
+                            <td>section</td>
+                            <td>Defines a section in a document</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;article&gt;</span></td>
+                            <td>article</td>
+                            <td>Defines a self-contained composition in a document</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;aside&gt;</span></td>
+                            <td>aside</td>
+                            <td>Defines content aside from the content (like a sidebar)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>attributes</h3>
+                <table class="table-2">
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Attribute</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- attributes like class, id, style, title, lang, dir, tabindex, accesskey, hidden, draggable, dropzone, translate -->
+
+                        <tr>
+                            <td><span class="code">&lt;header id=""&gt;</span></td>
+                            <td>id</td>
+                            <td>Specifies a unique id for an element</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;nav class=""&gt;</span></td>
+                            <td>class</td>
+                            <td>Specifies one or more class names for an element</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;main style=""&gt;</span></td>
+                            <td>style</td>
+                            <td>Specifies an inline style for an element</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;footer title=""&gt;</span></td>
+                            <td>title</td>
+                            <td>Specifies extra information about an element</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;section lang=""&gt;</span></td>
+                            <td>lang</td>
+                            <td>Specifies the language of the element's content</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;article dir=""&gt;</span></td>
+                            <td>dir</td>
+                            <td>Specifies the text direction of the element's content</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;aside tabindex=""&gt;</span></td>
+                            <td>tabindex</td>
+                            <td>Specifies the tab order of an element</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="text-elements">
+                <h2>Text Elements</h2>
+                <h3>tags</h3>
+                <table class="table1">
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="code">&lt;p&gt;</span></td>
+                            <td>p</td>
+                            <td>Defines a paragraph</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;h1&gt; to &lt;h6&gt;</span></td>
+                            <td>h1 to h6</td>
+                            <td>Defines HTML headings</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;em&gt;</span></td>
+                            <td>em</td>
+                            <td>Defines emphasized text</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;strong&gt;</span></td>
+                            <td>strong</td>
+                            <td>Defines important text</td>
+                        </tr>    
+                    </tbody>
+                </table>
+                <h3>attributes</h3>
+                <table class="table-2">
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Attribute</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="code">&lt;p style=""&gt;</span></td>
+                            <td>style</td>
+                            <td>Specifies an inline style for an element</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;h1 title=""&gt;</span></td>
+                            <td>title</td>
+                            <td>Specifies extra information about an element</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;em lang=""&gt;</span></td>
+                            <td>lang</td>
+                            <td>Specifies the language of the element's content</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;strong dir=""&gt;</span></td>
+                            <td>dir</td>
+                            <td>Specifies the text direction of the element's content</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="form-elements">
+                <h2>Form Elements</h2>
+                <h3>tags</h3>
+                <table class="table1">
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="code">&lt;form&gt;</span></td>
+                            <td>form</td>
+                            <td>Defines an HTML form for user input</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;input type=""&gt;</span></td>
+                            <td>input</td>
+                            <td>Defines an input field for user input</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;textarea&gt;</span></td>
+                            <td>textarea</td>
+                            <td>Defines a multiline text area</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;button&gt;</span></td>
+                            <td>button</td>
+                            <td>Defines a clickable button</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;select&gt;</span></td>
+                            <td>select</td>
+                            <td>Defines a drop-down list</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;option&gt;</span></td>
+                            <td>option</td>
+                            <td>Defines an option in a drop-down list</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;label&gt;</span></td>
+                            <td>label</td>
+                            <td>Defines a caption for an input element</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;fieldset&gt;</span></td>
+                            <td>fieldset</td>
+                            <td>Groups related form elements in a form</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>attributes</h3>
+                <table class="table-2">
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Attribute</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="code">&lt;form action="" method=""&gt;</span></td>
+                            <td>action</td>
+                            <td>Specifies where to send the form-data when a form is submitted</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;form method=""&gt;</span></td>
+                            <td>method</td>
+                            <td>Specifies the HTTP method (GET, POST, PUT, DELETE, etc.) to use when sending form-data</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;input type="" value=""&gt;</span></td>
+                            <td>value</td>
+                            <td>Specifies the initial value for an input element</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;textarea rows="" cols=""&gt;</span></td>
+                            <td>rows</td>
+                            <td>Specifies the visible number of lines in a text area</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;button type=""&gt;</span></td>
+                            <td>type</td>
+                            <td>Specifies the type of button</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;select name=""&gt;</span></td>
+                            <td>name</td>
+                            <td>Specifies the name of an input element</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;option value="" selected=""&gt;</span></td>
+                            <td>value</td>
+                            <td>Specifies the value of an option element</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-elements">
+                <h2>Table Elements</h2>
+                <h3>tags</h3>
+                <table class="table1">
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="code">&lt;table&gt;</span></td>
+                            <td>table</td>
+                            <td>Defines an HTML table</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;thead&gt;</span></td>
+                            <td>table head</td>
+                            <td>
+                                Defines the head of an HTML table
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;tbody&gt;</span></td>
+                            <td>table body</td>
+                            <td>Groups the body content in an HTML table</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;tr&gt;</span></td>
+                            <td>table row</td>
+                            <td>Defines a row in an HTML table</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;td&gt;</span></td>
+                            <td>table data</td>
+                            <td>Defines a cell in an HTML table</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;th&gt;</span></td>
+                            <td>table head</td>
+                            <td>Defines a header cell in an HTML table</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>attributes</h3>
+                <table class="table-2">
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Attribute</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="code">&lt;table border=""&gt;</span></td>
+                            <td>border</td>
+                            <td>Specifies the width of the border around the table</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;tr rowspan=""&gt;</span></td>
+                            <td>rowspan</td>
+                            <td>Specifies the number of rows to merge cells vertically</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;td colspan=""&gt;</span></td>
+                            <td>colspan</td>
+                            <td>Specifies the number of columns to merge cells horizontally</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;th scope=""&gt;</span></td>
+                            <td>scope</td>
+                            <td>Specifies the header cell's scope within a table</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;td headers=""&gt;</span></td>
+                            <td>headers</td>
+                            <td>Specifies one or more header cells that contain the column headers for the current cell</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
